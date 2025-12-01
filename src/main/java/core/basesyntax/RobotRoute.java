@@ -26,7 +26,7 @@ public class RobotRoute {
             robot.turnLeft();
         }
     }
-    
+
     private void performSteps(Robot robot, int steps) {
         for (int i = 0; i < steps; i++) {
             robot.stepForward();
